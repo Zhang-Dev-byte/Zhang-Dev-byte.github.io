@@ -13,11 +13,6 @@ text-align: center;
 color: white;
 font-size: 75px;
 }
-.pure-button {
-    color: white;
-    border-radius: 4px;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-}
 .pbutton {
 	background-color:#0099ff;
 	border-radius:28px;
@@ -42,16 +37,35 @@ font-size: 75px;
 	text-align: center;
 }
 .backimg{
-	background: Banner.png;
+	width: 1920px;
+	height: 300px;
+	border: 25px solid black;
+	background: url("Banner.png");
+}
+.about{
+	background-color: #293036;
+	font-family: Roboto;
+	text-align: center;
+	color: white;
+	font-size: 20px;
 }
 </style>
 </head>
 <body>
 <div class="backimg">
-<h1 class="title" >Matrix Engine</h1>
-<div class="button">
-<a href="#" class="pbutton">Download Matrix Engine</a>
 </div>
+<div class="button">
+<a href="https://github.com/Zhang-Dev-byte/Matrix-Engine" class="pbutton">Download Matrix Engine</a>
+</div>
+<div class="about">
+<p>Matrix Engine is a game engine built on python, the python modules used in Matrix Engine is pygame, Matrix Engine is not built on OpenGL.</p>
+<br>
+<h1>FAQ</h1>
+<p>Q: Do I have to install pygame?</p>
+<p>A: Yes. Or else, the modules won't work</p>
+<br>
+<p>Q: Do I have to install PyOpenGL</p>
+<p>A: No. It uses pygame</p>
 </div>
 </body>
 </html>
